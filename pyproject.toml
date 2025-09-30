@@ -1,0 +1,21 @@
+[project]
+name = "time-capsule"
+version = "0.1.0"
+description = "A daily data pipeline to create a digital time capsule."
+authors = [
+    {name = "HowDiggy",email = "jauregui.paulo@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dagster (>=1.11.12,<2.0.0)",
+    "dagster-webserver (>=1.11.12,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.14"

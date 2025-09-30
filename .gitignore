@@ -1,0 +1,35 @@
+# IDE / Editor Files
+.vscode/
+.idea/
+
+# Python Caches & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+# Poetry creates its virtual environments in a cache directory by default,
+# but if you configure it to create them in the project, ignore them.
+.venv/
+venv/
+env/
+
+# Build, Distribution, and Test Artifacts
+.pytest_cache/
+.tox/
+build/
+dist/
+*.egg-info/
+htmlcov/
+.coverage
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# Environment Files
+# Never commit your secrets!
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
