@@ -33,3 +33,6 @@ htmlcov/
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+# Tooling Caches & Logs
+.tmp_dagster_home*
